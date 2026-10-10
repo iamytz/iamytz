@@ -65,7 +65,7 @@ I'm constantly improving my knowledge of **software architecture, clean code, da
 
 <br>
 
-<img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman,docker&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman,docker,linux,ubuntu&theme=dark" />
 
 </div>
 
