@@ -1,25 +1,26 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:0e7490&height=180&section=header&text=Gabriel%20Carmo&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Backend%20Developer&descAlignY=58&descSize=20" width="100%" />
-
-<br>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111827,100:53038c&height=200&section=header&text=Gabriel%20Carmo&fontSize=46&fontColor=ffffff&fontAlignY=35&desc=Backend%20Developer&descAlignY=58&descSize=22" width="100%" />
 
 <a href="https://github.com/iamytz">
 <img src="https://img.shields.io/badge/GITHUB-111827?style=for-the-badge&logo=github&logoColor=22D3EE" />
 </a>
-
 <a href="https://www.linkedin.com/in/gabriel-carmo-pe/">
 <img src="https://img.shields.io/badge/LINKEDIN-111827?style=for-the-badge&logo=linkedin&logoColor=22D3EE" />
 </a>
 
 <br><br>
-<div align="center">
-
-### Backend Developer
 
 `Java` • `Spring Boot` • `REST APIs` • `SQL` • `JPA` • `Python`
 
-</div>
+<br>
+
+<a href="#-about-me">About</a> &nbsp;•&nbsp;
+<a href="#-main-project--vaultify">Vaultify</a> &nbsp;•&nbsp;
+<a href="#%EF%B8%8F-tech-stack">Stack</a> &nbsp;•&nbsp;
+<a href="#-other-projects">Projects</a> &nbsp;•&nbsp;
+<a href="#-github-statistics">Stats</a> &nbsp;•&nbsp;
+<a href="#-lets-connect">Contact</a>
 
 </div>
 
@@ -41,13 +42,62 @@ I'm constantly improving my knowledge of **software architecture, clean code, da
 
 <br>
 
+## 🔐 Main Project — Vaultify
+
+<div align="center">
+
+<a href="https://github.com/iamytz/Vaultify">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=iamytz&repo=Vaultify&theme=tokyonight&hide_border=true" />
+</a>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Java-21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/Spring_Boot-4.1.1-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" />
+<img src="https://img.shields.io/badge/status-in%20development-yellow?style=for-the-badge" />
+
+</div>
+
+<br>
+
+**Vaultify** is a personal finance management system that brings **accounts, credit cards, debts, financings and investments** together in a single web application.
+
+It was born from a real problem: tracking expenses in one spreadsheet, investments on another website and debts somewhere else — until everything became a mess. Vaultify is being built to be **secure, reliable and extensible**, and it evolves with every new challenge I solve and every concept I study.
+
+### ✅ What's already built
+
+| Module | Description |
+|---|---|
+| 🗄️ **Data modeling** | 10 JPA entities with relationships, UUID keys and lazy loading, covering users, accounts, cards, statements, categories, transactions, fixed bills, financings and investments |
+| 👤 **User registration** | Account creation with validation and persistence in MySQL |
+| 🔒 **Password security** | Strong password policy + **BCrypt** hashing before storage |
+| 🖥️ **Login page** | Server-rendered page with Thymeleaf, HTML, CSS and JavaScript |
+| 🚧 **Authentication** | Login endpoint and front-end integration *(in progress)* |
+
+### 🧱 Architecture
+
+```text
+Controller  →  Service  →  Repository  →  MySQL
+   (REST)     (business)    (Spring Data JPA)
+```
+
+<div align="center">
+
+<a href="https://github.com/iamytz/Vaultify">
+<img src="https://img.shields.io/badge/VIEW%20REPOSITORY-111827?style=for-the-badge&logo=github&logoColor=22D3EE" />
+</a>
+
+</div>
+
+<br>
+
 ## 🛠️ Tech Stack
 
 <div align="center">
 
 ### Backend
-
-<br>
 
 <img src="https://skillicons.dev/icons?i=java,spring,python&theme=dark" />
 
@@ -55,17 +105,19 @@ I'm constantly improving my knowledge of **software architecture, clean code, da
 
 ### Databases
 
-<br>
-
 <img src="https://skillicons.dev/icons?i=mysql,postgres&theme=dark" />
+
+<br><br>
+
+### Front-end Basics
+
+<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" />
 
 <br><br>
 
 ### Tools & Workflow
 
-<br>
-
-<img src="https://skillicons.dev/icons?i=git,github,idea,vscode,postman,docker,linux,ubuntu&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,github,maven,idea,vscode,postman,docker,linux,ubuntu&theme=dark" />
 
 </div>
 
@@ -78,6 +130,7 @@ Backend Development
 ├── Java
 ├── Spring Boot
 ├── Spring Data JPA
+├── Spring Security (BCrypt)
 ├── REST APIs
 ├── DTOs
 ├── Service Layer
@@ -101,7 +154,7 @@ Automation & Development
 
 <br>
 
-## 📌 Featured Projects
+## 📂 Other Projects
 
 <div align="center">
 
@@ -123,7 +176,7 @@ Backend system designed to support the management and analysis of housing client
 
 <td width="50%" valign="top">
 
-### 🗺️ City Backend
+### 🗺️ [City Backend](https://github.com/iamytz/city-back-end-python)
 
 Backend API developed to provide data and services for a map-based application.
 
@@ -151,7 +204,7 @@ Automation and data-processing projects using Python, including spreadsheets, da
 
 <td width="50%" valign="top">
 
-### ☕ Java & Spring Projects
+### ☕ [Java & Spring Projects](https://github.com/iamytz/Java)
 
 Backend projects created while studying Java, Object-Oriented Programming, Spring Boot, JPA and relational databases.
 
@@ -174,7 +227,6 @@ Backend projects created while studying Java, Object-Oriented Programming, Sprin
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=iamytz&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170" />
-
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iamytz&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="170" />
 
 <br><br>
@@ -185,14 +237,11 @@ Backend projects created while studying Java, Object-Oriented Programming, Sprin
 
 <br>
 
-
-<br>
-
 ## 🎯 Currently Learning
 
 <div align="center">
 
-`Java` • `Spring Boot` • `JPA / Hibernate` • `REST APIs` • `SQL` • `Software Architecture`
+`Java` • `Spring Boot` • `Spring Security` • `JPA / Hibernate` • `REST APIs` • `SQL` • `Software Architecture`
 
 </div>
 
@@ -205,10 +254,13 @@ Backend projects created while studying Java, Object-Oriented Programming, Sprin
 <a href="https://github.com/iamytz">
 <img src="https://img.shields.io/badge/GitHub-iamytz-181717?style=for-the-badge&logo=github" />
 </a>
-
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/in/gabriel-carmo-pe/">
 <img src="https://img.shields.io/badge/LinkedIn-Gabriel%20Carmo-0A66C2?style=for-the-badge&logo=linkedin" />
 </a>
+
+<br><br>
+
+⭐ *If you like Vaultify, leave a star on the repository!*
 
 </div>
 
@@ -216,7 +268,6 @@ Backend projects created while studying Java, Object-Oriented Programming, Sprin
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0e7490,100:111827&height=100&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:53038c,100:111827&height=100&section=footer" width="100%" />
 
 </div>
-
